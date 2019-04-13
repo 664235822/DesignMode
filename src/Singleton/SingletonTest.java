@@ -17,5 +17,12 @@ public class SingletonTest {
         System.out.println(sd1.hashCode());
         SingletonDouleLock sd2 = SingletonDouleLock.getInstance();
         System.out.println(sd2.hashCode());
+
+        // 单例模式饿汉模式
+        System.out.println("单例模式饿汉模式");
+        SingletonStatic ss1 = SingletonStatic.getInstance();
+        System.out.println(ss1.hashCode());
+        SingletonStatic ss2 = SingletonStatic.getInstance();
+        System.out.println(ss2.hashCode());
     }
 }
