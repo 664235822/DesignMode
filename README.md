@@ -5,7 +5,7 @@
 * 单例模式 (Singleton)
 * 生成器模式 (Builder)
 * 工厂方法模式 (Factory)
-* 抽象工厂模式 (ABstractFactory)
+* 抽象工厂模式 (AbstractFactory)
 * 原型设计模式 (ProtoType)
 
 ## 结构型设计模式
